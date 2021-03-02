@@ -4,7 +4,7 @@ const app = express();
 
 //database connection code
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://pete:Ngc6656%21@augfrontdev.ya42f.mongodb.net/hivemouse_dev?retryWrites=true&w=majority";
+const uri = "mongodb+srv://##############@augfrontdev.ya42f.mongodb.net/hivemouse_dev?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 //the thing that parses your html for data
